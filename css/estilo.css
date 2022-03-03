@@ -62,8 +62,8 @@
 }
 
 .imgbio{
-    height: 400px;
-    width: 650px;
+    height: 300px;
+    width: 550px;
     margin-top: 100px;
 }
 
@@ -96,16 +96,55 @@ h1{
 } 
 
 .flex-shrink-0{
-    height: 500px;
+    height: 70%;
     margin-top:100px ;
     
 }
 .table{
     color: white;
-    margin-top:100px;
-    margin-right: 50px;
+    margin-top:10%;
 }
 
 .mb-3{
     width: 30%!important;
+}
+
+@media (max-width:1573px) {
+    .flex-shrink-0{
+        height: 30%;
+        margin-top:100px ;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .logofoot{
+    width: auto;
+    height: 20px;
+    padding: 5px;
+}
+h6{
+    font-size: 7px;
+}
+.table-responsive{
+        height: 50%;    
+    }
+
+}
+
+@media (max-width:868px) {
+    .flex-shrink-0{
+        height: 20%;
+        margin-top:100px ;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table-responsive{
+        height: 50%;
+        
+    }
+
 }
